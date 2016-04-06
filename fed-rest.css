@@ -24,13 +24,14 @@ body {
 	margin: 0em auto;
 	padding: 0 1em;
 	max-width: 64em;
-	background:
+	background: darkgray;
 }
 
 /* header */
 header {
 	background-color: orange;
 	height: 30vh;
+	width: 100%;
 }
 
 /* nav */
