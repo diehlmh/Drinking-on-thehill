@@ -42,7 +42,7 @@ nav {
 	text-align: center;
 }
 
-nav a {
+header nav a {
 	background-color: cornflowerblue;
 	display: inline-block;
 	margin: 0.1em;
