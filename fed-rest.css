@@ -18,6 +18,11 @@ margin: 0;
 padding: 0;
 }
 
+/* nav */
+nav {
+	text-align: center;
+}
+
 /* dropdown buttons */
 
 .dropbtn {
