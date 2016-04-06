@@ -24,6 +24,11 @@ header {
   text-align: center;
 }
 
-nav h1 {
-  color: orange;
+.sign {
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	display: inline;
 }
