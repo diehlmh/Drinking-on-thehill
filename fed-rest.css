@@ -52,7 +52,7 @@ nav a {
 	border: solid black;
 }
 
-nav li {
+li {
 	list-style-type: none;
 	margin: 0.2em;
 }
