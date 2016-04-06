@@ -46,6 +46,8 @@ nav a {
 	display: inline-block;
 	list-style-type: none;
 	border-radius: 1em;
+	margin: 0.1em;
+	border: solid black;
 }
 
 .logo > a {
