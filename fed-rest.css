@@ -18,6 +18,11 @@ margin: 0;
 padding: 0;
 }
 
+body {
+	margin: 0em auto;
+	padding: 0 1em;
+	max-width: 64em;
+}
 /* nav */
 nav {
 	text-align: center;
