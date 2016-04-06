@@ -23,7 +23,7 @@ nav {
 	text-align: center;
 }
 
-.logo > a {
+.logo > a, li {
 	text-decoration: none;
 }
 
