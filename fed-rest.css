@@ -30,9 +30,11 @@ body {
 /* header */
 header {
 	background-color: orange;
-	height: 30vh;
 	width: 100%;
 	border-radius: 1em;
+}
+header .logo {
+	text-align: center;
 }
 
 /* nav */
@@ -52,8 +54,4 @@ nav a {
 
 .logo > a {
 	text-decoration: none;
-}
-
-header .logo {
-	text-align: center;
 }
