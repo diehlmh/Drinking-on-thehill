@@ -40,6 +40,14 @@ nav {
 	text-align: center;
 }
 
+nav > ul {
+	background-color: cornflowerblue;
+	width: 15%;
+	display: inline-block;
+	list-style-type: none;
+	border-radius: 1em;
+}
+
 .logo > a {
 	text-decoration: none;
 }
