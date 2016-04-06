@@ -46,10 +46,15 @@ nav a {
 	background-color: cornflowerblue;
 	width: 15%;
 	display: inline-block;
-	list-style-type: none;
+
 	border-radius: 1em;
 	margin: 0.1em;
 	border: solid black;
+}
+
+nav li {
+	list-style-type: none;
+	margin: 0.2em;
 }
 
 .logo > a {
