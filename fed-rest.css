@@ -23,6 +23,10 @@ nav {
 	text-align: center;
 }
 
+.logo > a {
+	text-decoration: none;
+}
+
 /* dropdown buttons */
 
 .dropbtn {
