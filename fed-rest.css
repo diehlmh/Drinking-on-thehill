@@ -18,14 +18,20 @@ margin: 0;
 padding: 0;
 }
 
+/* style body */
+
 body {
 	margin: 0em auto;
 	padding: 0 1em;
 	max-width: 64em;
+	background:
 }
+
 /* nav */
 nav {
 	text-align: center;
+	background-color: orange;
+	height: 30vh;
 }
 
 .logo > a {
