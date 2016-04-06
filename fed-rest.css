@@ -51,3 +51,7 @@ nav a {
 .logo > a {
 	text-decoration: none;
 }
+
+.logo {
+	text-align: center;
+}
