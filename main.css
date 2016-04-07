@@ -19,16 +19,64 @@ padding: 0;
 }
 
 /* header */
+body {
+	margin: 0em auto;
+	padding: 0 1em;
+	max-width: 64em;
+	background: darkgray;
+}
+
+/* header */
 header {
-  width: 100%;
-  text-align: center;
+	background-color: orange;
+	width: 100%;
+	border-radius: 1em;
 }
-
-.sign {
+header .logo {
 	text-align: center;
 }
 
-ul {
-	text-align: center;
+header nav li {
 	display: inline;
+}
+
+/* nav */
+nav {
+	text-align: center;
+}
+
+header nav a {
+	background-color: cornflowerblue;
+	display: inline-block;
+	margin: 0.1em;
+	padding: 0.4em;
+	border: solid black;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+	margin: 0.2em;
+}
+
+.logo > a {
+	text-decoration: none;
+}
+
+
+/*media queries*/
+
+@media screen and (min-width: 768px){
+	header {
+		display: inline-block;
+		border-radius: 0em;
+		height: 20vh;
+		padding-top: 0.8%;
+	}
+	.logo {
+		float: left;
+	}
+	nav {
+		float: right;
+	}
 }
