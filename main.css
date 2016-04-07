@@ -61,10 +61,25 @@ li {
 }
 
 /*banner*/
+banner {
+	background-image: url(http://41.media.tumblr.com/tumblr_lsxbh6gkMl1qj6i52o1_500.jpg);
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+	height: 15em;
+  display: block;
+}
+
 .banner-text-align {
 	text-align: center;
 }
 
+.banner-text {
+	color: white;
+  font-size: xx-large;
+  padding-top: 3em;
+}
 
 /*media queries*/
 
