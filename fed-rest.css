@@ -23,12 +23,11 @@ padding: 0;
 body {
 	margin: 0em auto;
 	max-width: 64em;
-	background: darkgray;
 }
 
 /* header */
 header {
-	background-color: orange;
+	background-color: #DCDBD9;
 	width: 100%;
 }
 header .logo {
