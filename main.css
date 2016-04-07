@@ -92,6 +92,21 @@ banner {
 	padding-right: 1em;
 }
 
+.blog-post {
+	text-align: center;
+}
+
+.blog1 {
+	padding: 2em;
+}
+
+.blog2 {
+	padding: 2em;
+}
+
+.blog3 {
+	padding: 2em;
+}
 /*media queries*/
 
 @media screen and (min-width: 768px){
