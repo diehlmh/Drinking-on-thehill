@@ -21,12 +21,11 @@ padding: 0;
 body {
 	margin: 0em auto;
 	max-width: 64em;
-	background: darkgray;
 }
 
 /* header */
 header {
-	background-color: orange;
+	background-color: #DCDBD9;
 	width: 100%;
 }
 header .logo {
@@ -81,11 +80,23 @@ banner {
   padding-top: 3em;
 }
 
+.banner-nav {
+	background-color: orange;
+  font-size: small;
+  font-family: cursive;
+  color: azure;
+  display: flex;
+}
+
+.banner-nav h2 {
+	padding-right: 1em;
+}
+
 /*media queries*/
 
 @media screen and (min-width: 768px){
 	header {
-		display: inline-block;
+		display: table;
 	}
 	.logo {
 		float: left;
