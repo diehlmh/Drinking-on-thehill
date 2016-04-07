@@ -64,7 +64,7 @@ li {
 	text-decoration: none;
 }
 
-@@media screen (min-width: 768px){
+@media screen (min-width: 768px){
 	header {
 		display: inline-block;
 	}
