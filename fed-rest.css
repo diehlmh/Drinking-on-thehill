@@ -65,8 +65,13 @@ li {
 }
 
 @@media screen and (min-width: 768px){
+	header {
+		display: inline-block;
+	}
+	.logo {
+		float: left;
+	}
 	nav {
 		float: right;
 	}
-
 }
