@@ -47,12 +47,11 @@ nav {
 }
 
 header nav a {
-	background-color: cornflowerblue;
 	display: inline-block;
 	margin: 0.1em;
 	padding: 0.4em;
-	border: solid black;
 	text-decoration: none;
+	font-family: fantasy;
 }
 
 li {
@@ -62,6 +61,7 @@ li {
 
 .logo > a {
 	text-decoration: none;
+	font-family: sans-serif;
 }
 
 
