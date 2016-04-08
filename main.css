@@ -92,6 +92,7 @@ banner {
 	padding-right: 1em;
 }
 
+/*Blog posts*/
 .blog-post {
 	text-align: center;
 }
@@ -106,6 +107,23 @@ banner {
 
 .blog3 {
 	padding: 2em;
+}
+
+/* Footer */
+.main-footer {
+	background-color: cadetblue;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-nav ul {
+	display: inline-flex;
+	padding: 2em;
+}
+
+.footer-menu ul {
+	padding: 1em;
+	display: inline-flex;
 }
 /*media queries*/
 
