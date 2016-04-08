@@ -29,7 +29,9 @@ body {
 header {
 	background-color: #DCDBD9;
 	width: 100%;
+	display: table;
 }
+
 header .logo {
 	text-align: center;
 }
@@ -59,6 +61,14 @@ li {
 .logo > a {
 	text-decoration: none;
 	font-family: sans-serif;
+}
+
+/*restaurant body */
+h2 {
+	text-align: center;
+	background-color: coral;
+  height: 3em;
+	padding-top: 1em;
 }
 
 /* restaurant grid */
