@@ -129,8 +129,8 @@ banner {
 }
 
 .footer-menu ul {
-	padding: 1em;
-	display: inline-flex;
+	padding-right: 4em;
+	display: block;
 }
 
 .footer-menu {
@@ -163,5 +163,9 @@ banner {
 	}
 	nav {
 		float: right;
+	}
+	.footer-menu > ul {
+		display:inline-flex;
+		padding: 1em;
 	}
 }
