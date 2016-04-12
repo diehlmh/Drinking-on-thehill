@@ -39,8 +39,6 @@ header nav li {
 /* nav */
 nav {
 	text-align: center;
-	margin-top: 4%;
-
 }
 
 header nav a {
@@ -93,6 +91,10 @@ banner {
   font-family: cursive;
   color: azure;
   display: flex;
+}
+
+span {
+	display: flex;
 }
 
 .banner-nav h2 {
