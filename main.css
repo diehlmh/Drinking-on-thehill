@@ -127,7 +127,7 @@ span {
 
 /* Footer */
 .main-footer {
-	background-color: cadetblue;
+	background-color: #DCDBD9;
 	width: 100%;
 	text-align: center;
 }
@@ -151,7 +151,9 @@ span {
 	text-decoration: none;
 	color: #0d0d0d;
 	padding: 1em;
+
 	font-family: fantasy;
+
 }
 
 
