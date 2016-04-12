@@ -190,7 +190,7 @@ span {
 	.footer-menu {
 		float: right;
 		display: inline-flex;
-		padding-top: 1.75em;
+		padding-top: 0.75em;
 		padding-right: 0.5em;
 	}
 }
