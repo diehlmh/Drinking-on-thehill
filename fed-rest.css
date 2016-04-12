@@ -90,6 +90,35 @@ h2 {
 }
 
 
+/* Footer */
+.main-footer {
+	background-color: #DCDBD9;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-nav ul {
+	display: inline-flex;
+	padding: 2em;
+}
+
+.footer-menu ul {
+	padding-right: 4em;
+	display: inline-flex;
+}
+
+.footer-menu {
+	margin-left: 6%;
+	padding-right: 6%;
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: #0d0d0d;
+	padding: 1em;
+	font-family: fantasy;
+}
+
 /*media queries*/
 
 @media screen and (min-width: 768px){
@@ -103,3 +132,20 @@ h2 {
 		float: right;
 		margin-top: 3.5em;
 	}
+	.footer-menu > ul {
+		padding: 1em;
+	}
+	.main-footer {
+		display: inline-block;
+	}
+	.footer-nav {
+		float: left;
+		margin: -1em;
+	}
+	.footer-menu {
+		float: right;
+		display: inline-flex;
+		padding-top: 0.75em;
+		padding-right: 0.5em;
+	}
+}
