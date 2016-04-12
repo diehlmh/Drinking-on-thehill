@@ -138,20 +138,17 @@ span {
 }
 
 .footer-menu ul {
-	padding-right: 4em;
 	display: inline-flex;
 }
 
 .footer-menu {
-	margin-left: 6%;
-	padding-right: 6%;
+	padding: 0em;
 }
 
 .footer-menu a {
 	text-decoration: none;
 	color: #0d0d0d;
 	padding: 1em;
-
 	font-family: fantasy;
 
 }
