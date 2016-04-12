@@ -178,4 +178,17 @@ span {
 	.footer-menu > ul {
 		padding: 1em;
 	}
+	.main-footer {
+		display: inline-block;
+	}
+	.footer-nav {
+		float: left;
+		margin: -1em;
+	}
+	.footer-menu {
+		float: right;
+		display: inline-flex;
+		padding-top: 1.5em;
+		padding-right: 0.5em;
+	}
 }
