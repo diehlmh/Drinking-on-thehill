@@ -92,20 +92,9 @@ banner {
   padding-top: 3em;
 }
 
-.banner-nav {
+.banner-bar {
 	background-color: orange;
-  font-size: small;
-  font-family: futura;
-  color: azure;
-  display: flex;
-}
-
-span {
-	display: flex;
-}
-
-.banner-nav h2 {
-	padding-right: 1em;
+  height: 1vh;
 }
 
 /*Blog posts*/
