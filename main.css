@@ -130,7 +130,7 @@ banner {
 
 .footer-menu ul {
 	padding-right: 4em;
-	display: block;
+	display: inline-flex;
 }
 
 .footer-menu {
@@ -165,7 +165,6 @@ banner {
 		float: right;
 	}
 	.footer-menu > ul {
-		display:inline-flex;
 		padding: 1em;
 	}
 }
