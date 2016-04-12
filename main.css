@@ -143,6 +143,7 @@ span {
 
 .footer-menu {
 	padding: 0em;
+	font-size: x-small;
 }
 
 .footer-menu a {
@@ -191,5 +192,6 @@ span {
 		display: inline-flex;
 		padding-top: 0.75em;
 		padding-right: 0.5em;
+		font-size: medium;
 	}
 }
