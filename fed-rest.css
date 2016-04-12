@@ -36,11 +36,11 @@ header .logo {
 	text-align: center;
 }
 
-header nav li {
-	display: inline;
+header a {
+	color: #0d0d0d;
 }
 
-/* nav */
+/* header nav */
 nav {
 	text-align: center;
 }
@@ -53,6 +53,10 @@ header nav a {
 	font-family: fantasy;
 }
 
+header nav li {
+	display: inline;
+}
+
 li {
 	list-style-type: none;
 	margin: 0.2em;
@@ -61,6 +65,10 @@ li {
 .logo > a {
 	text-decoration: none;
 	font-family: sans-serif;
+}
+
+.logo {
+	margin-bottom: -0.5em;
 }
 
 /*restaurant body */
@@ -88,11 +96,10 @@ h2 {
 	header {
 		display: table;
 	}
-
 	.logo {
 		float: left;
 	}
 	nav {
 		float: right;
+		margin-top: 3.5em;
 	}
-}

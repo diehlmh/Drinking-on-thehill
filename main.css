@@ -27,6 +27,7 @@ body {
 header {
 	background-color: #DCDBD9;
 	width: 100%;
+	display: table;
 }
 header .logo {
 	text-align: center;
@@ -37,7 +38,8 @@ header a {
 
 
 
-/* nav */
+
+/* header nav */
 nav {
 	text-align: center;
 }
@@ -54,9 +56,6 @@ header nav li {
 	display: inline;
 }
 
-header nav {
-
-}
 
 li {
 	list-style-type: none;
