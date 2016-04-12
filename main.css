@@ -135,6 +135,7 @@ banner {
 
 .footer-menu {
 	margin-left: 6%;
+	padding-right: 6%;
 }
 
 .footer-menu a {
@@ -143,9 +144,6 @@ banner {
 	padding: 1em;
 }
 
-.mobile-change {
-	padding-right: 2%;
-}
 
 /* instagram icon */
 
