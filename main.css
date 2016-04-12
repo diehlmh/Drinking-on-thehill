@@ -143,6 +143,10 @@ banner {
 	padding: 1em;
 }
 
+.mobile-change {
+	padding-right: 3%;
+}
+
 /* instagram icon */
 
 .ig-b- { display: inline-block; }
