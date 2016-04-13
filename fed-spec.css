@@ -108,8 +108,16 @@ banner h1 {
 	padding: 1em;
 }
 
+.grid h3 {
+	padding-bottom: 0.5em;
+}
+
 .col-1-3 a {
 	text-decoration: none;
+	border: solid black;
+  color: black;
+  background-color: orange;
+  font-family: monospace;
 }
 
 /* Footer */
