@@ -1,0 +1,143 @@
+/* Helpers*/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.group: after {
+content: “”;
+display: table;
+clear: both;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+margin: 0;
+padding: 0;
+}
+
+body {
+	margin: 0em auto;
+	max-width: 100%;
+}
+
+/* header */
+header {
+	background-color: #DCDBD9;
+	width: 100%;
+	display: table;
+}
+header .logo {
+	text-align: center;
+}
+header a {
+	color: #0d0d0d;
+}
+
+
+
+
+/* header nav */
+nav {
+	text-align: center;
+}
+
+header nav a {
+	display: inline-block;
+	margin: 0.1em;
+	padding: 0.4em;
+	text-decoration: none;
+	font-family: fantasy;
+}
+
+header nav li {
+	display: inline;
+}
+
+
+li {
+	list-style-type: none;
+	margin: 0.2em;
+}
+
+.logo > a {
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.logo {
+	margin-bottom: -0.5em;
+}
+
+/* Footer */
+.main-footer {
+	background-color: #DCDBD9;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-nav ul {
+	display: inline-flex;
+	padding: 2em;
+}
+
+.footer-menu ul {
+	display: inline-flex;
+}
+
+.footer-menu {
+	padding: 0em;
+	font-size: x-small;
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: #0d0d0d;
+	padding: 1em;
+	font-family: fantasy;
+
+}
+
+
+/* instagram icon */
+
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-48 { width: 48px; height: 48px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-48.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-48 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-48@2x.png); background-size: 60px 178px; } }
+
+/*media queries*/
+
+@media screen and (min-width: 768px){
+	header {
+		display: table;
+	}
+	.logo {
+		float: left;
+	}
+	nav {
+		float: right;
+		margin-top: 3.5em;
+	}
+	.footer-menu > ul {
+		padding: 1em;
+	}
+	.main-footer {
+		display: inline-block;
+	}
+	.footer-nav {
+		float: left;
+		margin: -1em;
+	}
+	.footer-menu {
+		float: right;
+		display: inline-flex;
+		padding-top: 0.75em;
+		padding-right: 0.5em;
+		font-size: medium;
+	}
+}
