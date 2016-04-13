@@ -108,6 +108,10 @@ banner h1 {
 	padding: 1em;
 }
 
+.col-1-3 a {
+	text-decoration: none;
+}
+
 /* Footer */
 .main-footer {
 	background-color: #DCDBD9;
