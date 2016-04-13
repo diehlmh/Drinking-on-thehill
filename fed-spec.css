@@ -77,6 +77,14 @@ li {
 	margin-bottom: -0.5em;
 }
 
+/* Day banner */
+
+banner h1 {
+	color: black;
+	background-color: orange;
+	text-align: center;
+}
+
 /* Restaurant grid */
 
 [class*='col-'] {
@@ -94,6 +102,11 @@ li {
   padding-right: 0;
 }
 
+.grid {
+	display: inline-block;
+	border: solid black;
+	padding: 1em;
+}
 
 /* Footer */
 .main-footer {
