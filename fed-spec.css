@@ -106,6 +106,7 @@ banner h1 {
 	display: inline-block;
 	border: solid black;
 	padding: 1em;
+	margin: 1%;
 }
 
 .grid h3 {
