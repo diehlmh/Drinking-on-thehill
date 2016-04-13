@@ -23,6 +23,12 @@ body {
 	max-width: 100%;
 }
 
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* header */
 header {
 	background-color: #DCDBD9;
@@ -70,6 +76,24 @@ li {
 .logo {
 	margin-bottom: -0.5em;
 }
+
+/* Restaurant grid */
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-1-3 {
+  width: 33.33%;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
 
 /* Footer */
 .main-footer {
