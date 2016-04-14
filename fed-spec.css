@@ -48,13 +48,10 @@ header a {
 /* header nav */
 nav {
 	text-align: center;
-	padding-bottom: 2%;
 }
 
 header nav a {
 	display: inline-block;
-	margin: 0.1em;
-	padding: 0.4em;
 	text-decoration: none;
 	font-family: fantasy;
 }
@@ -122,6 +119,14 @@ span {
 	font-family: fantasy;
 }
 
+button {
+		font-size: 1em;
+    border: none;
+    cursor: pointer;
+		font-family: fantasy;
+		padding: 0.4em;
+		margin: 0.1em;
+	}
 
 /* Day banner */
 
