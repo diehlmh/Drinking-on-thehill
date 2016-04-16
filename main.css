@@ -116,7 +116,7 @@ button {
 
 /*banner*/
 banner {
-	background-image: url(http://41.media.tumblr.com/tumblr_lsxbh6gkMl1qj6i52o1_500.jpg);
+	background-image: url(banner-home.jpg);
 	background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -130,9 +130,11 @@ banner {
 }
 
 .banner-text {
-	color: white;
-  font-size: xx-large;
-  padding-top: 3em;
+	color: ghostwhite;
+	font-size: 3em;
+	opacity: 0.7;
+	font-weight: lighter;
+	font-family: sans-serif;
 }
 
 .banner-bar {
