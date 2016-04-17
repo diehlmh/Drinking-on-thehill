@@ -129,7 +129,7 @@ banner {
 	text-align: center;
 }
 
-.banner-text {
+.banner-text > h2 {
 	color: ghostwhite;
 	font-size: 1.5em;
 	opacity: 0.7;
@@ -140,6 +140,14 @@ banner {
 .banner-bar {
 	background-color: orange;
   height: 1vh;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 /*Blog posts*/
