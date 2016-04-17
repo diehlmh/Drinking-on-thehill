@@ -228,6 +228,11 @@ display: block;
 		float: right;
 		margin-top: 3.5em;
 	}
+
+	banner {
+		height: 25em;
+	}
+	
 	.footer-menu > ul {
 		padding: 1em;
 	}
