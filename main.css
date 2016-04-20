@@ -152,19 +152,15 @@ banner {
 
 /*Blog posts*/
 .blog-post {
-	text-align: center;
+
 }
 
 .blog1 {
 	padding: 2em;
 }
 
-.blog2 {
-	padding: 2em;
-}
-
-.blog3 {
-	padding: 2em;
+.blog1 h1 {
+	padding-bottom: 1em;
 }
 
 /* Footer */
