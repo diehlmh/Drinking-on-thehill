@@ -115,7 +115,7 @@ button {
 	}
 
 /*banner*/
-banner {
+/*banner {
 	background-image: url(banner-home.jpg);
 	background-repeat: no-repeat;
   background-position: center center;
@@ -123,6 +123,7 @@ banner {
   position: static;
 	height: 15em;
   display: block;
+	*/
 }
 
 .banner-text-align {
@@ -151,20 +152,39 @@ banner {
 }
 
 /* picture of matt */
-aside {
-  text-align: center;
-}
-
-aside img {
-  height: 20em;
-  width: 20%;
+article > img {
+	float: right;
+	width: 28%;
+	border-radius: 50%;
+	margin-right: 2%;
+	margin-top: 10%;
 }
 
 /* article */
 article {
-  text-align: center;
+	background-color: slategrey;
+	padding-left: 3%;
 }
 
+article h1 {
+	font-family: cursive;
+  font-size: larger;
+  padding-top: 5%;
+  color: darkorange;
+}
+
+article h3 {
+	color: white;
+}
+
+article p {
+	width: 60%;
+}
+
+.contact-info {
+	margin-top: -13%;
+	text-align: end;
+}
 
 /* Footer */
 .main-footer {
