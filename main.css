@@ -151,6 +151,10 @@ banner {
 }
 
 /*Blog posts*/
+article {
+	width: 100%;
+}
+
 .blog-post {
 
 }
