@@ -150,6 +150,22 @@ banner {
 	float: right;
 }
 
+/* picture of matt */
+aside {
+  text-align: center;
+}
+
+aside img {
+  height: 20em;
+  width: 20%;
+}
+
+/* article */
+article {
+  text-align: center;
+}
+
+
 /* Footer */
 .main-footer {
 	background-color: #DCDBD9;
