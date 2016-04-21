@@ -169,7 +169,7 @@ article {
 
 article h1 {
 	font-family: fantasy;;
-  font-size: large;
+  font-size: 1em;
   padding-top: 5%;
   color: darkorange;
 }
@@ -185,6 +185,7 @@ article p {
 .contact-info {
 	margin-top: -13%;
 	text-align: end;
+	padding-right: 3%;
 }
 
 /* Footer */
