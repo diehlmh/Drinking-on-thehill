@@ -193,6 +193,20 @@ article p {
 
 /*media queries*/
 
+@media screen and (min-width: 450px) {
+	.contact-info {
+    margin-top: 3%;
+    text-align: end;
+    padding-right: 3%;
+	}
+	article > img {
+    float: right;
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-top: 7%;
+    height: 13em;
+}
+
 @media screen and (min-width: 768px){
 	header {
 		display: table;
@@ -234,7 +248,7 @@ article p {
     height: 25em;
 	}
 	article h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	article p {
 		width: 70%;
