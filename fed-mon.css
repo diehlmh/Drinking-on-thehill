@@ -244,6 +244,11 @@ display: block;
 		float: left;
 		margin: -1em;
 	}
+
+	.footer-nav ul {
+		padding: 2em;
+	}
+	
 	.footer-menu {
 		float: right;
 		display: inline-flex;
