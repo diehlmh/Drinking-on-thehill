@@ -181,7 +181,7 @@ display: block;
 
 .footer-nav ul {
 	display: inline-flex;
-	padding: 2em;
+	padding: 1em;
 }
 
 .footer-menu ul {
@@ -189,7 +189,7 @@ display: block;
 }
 
 .footer-menu {
-	padding: 0em;
+	padding: 1em;
 	font-size: x-small;
 }
 
@@ -198,7 +198,12 @@ display: block;
 	color: #0d0d0d;
 	padding: 1em;
 	font-family: fantasy;
+}
 
+.footer-copy {
+	clear: both;
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 
