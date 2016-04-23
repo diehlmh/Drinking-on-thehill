@@ -176,7 +176,7 @@ article {
 
 .footer-nav ul {
 	display: inline-flex;
-	padding: 2em;
+	padding: 1em;
 }
 
 .footer-menu ul {
@@ -184,7 +184,7 @@ article {
 }
 
 .footer-menu {
-	padding: 0em;
+	padding: 1em;
 	font-size: x-small;
 }
 
