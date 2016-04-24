@@ -181,6 +181,12 @@ article p {
 
 }
 
+.footer-copy {
+	clear: both;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
 
 /* instagram icon */
 
@@ -236,7 +242,7 @@ article p {
 	.footer-nav ul {
 		padding: 2em;
 	}
-	
+
 	.footer-menu {
 		float: right;
 		display: inline-flex;
