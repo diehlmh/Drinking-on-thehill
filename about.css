@@ -129,6 +129,7 @@ article > img {
 article {
 	background-color: slategrey;
 	padding-left: 3%;
+	padding-bottom: 2%;
 }
 
 article h1 {
@@ -138,19 +139,26 @@ article h1 {
   color: darkorange;
 }
 
-article h3 {
-	color: white;
-}
-
 article p {
 	width: 60%;
 }
 
 .contact-info {
-	margin-top: -10%;
   text-align: end;
   padding-right: 3%;
+	background-color: black;
 }
+
+.contact-info h1 {
+	color: darkorange;
+	font-family: fantasy;
+}
+
+.contact-info h3 {
+	color: white;
+	font-family: serif;
+}
+
 
 /* Footer */
 .main-footer {
@@ -201,7 +209,6 @@ article p {
 
 @media screen and (min-width: 450px) {
 	.contact-info {
-    margin-top: 3%;
     text-align: end;
     padding-right: 3%;
 	}
@@ -265,9 +272,7 @@ article p {
 		width: 70%;
 		font-size: 2em;
 	}
-	.contact-info {
-		margin-top: 0%;
-	}
+
 	.contact-info h3 {
 		font-size: 2em;
 	}
