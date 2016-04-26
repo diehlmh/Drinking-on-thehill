@@ -139,6 +139,11 @@ article h1 {
   color: darkorange;
 }
 
+article a {
+	color: darkorange;
+	text-decoration: none;
+}
+
 article p {
 	width: 60%;
 }
