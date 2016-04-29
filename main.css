@@ -217,6 +217,7 @@ article {
 @media screen and (min-width: 768px){
 	header {
 		display: table;
+
 	}
 	.logo {
 		float: left;
