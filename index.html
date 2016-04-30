@@ -72,6 +72,35 @@ Happy Drinking! ///<br><br>
 
 -Matt
 </p><br>
+<p class="email">
+  Like this article? Be sure to subscribe via email to get Happy Hour special & new blog post alerts
+</p>
+
+<form action="//submit.form" id="NewsletterSubscription100" method="post" onsubmit="return ValidateForm(this);">
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+return true; }
+</script>
+<table border="0" cellpadding="5" cellspacing="0" style="width: 360px; margin: auto; text-align: left;">
+<tr> <td>
+<label for="Name">NAME</label><br />
+<input name="Name" type="text" maxlength="60" style="width: 340px;" />
+</td> </tr>
+<tr> <td>
+<label for="FromEmailAddress">EMAIL</label><br />
+<input name="FromEmailAddress" type="text" maxlength="60" style="width: 340px;" />
+</td> </tr>
+<tr> <td align="center">
+<div style="float: right"><a href="https://www.100forms.com" id="lnk100" title="web forms">forms</a></div>
+<script src="https://www.100forms.com/js/FORMKEY:8F37GA4K8CU4/SEND:drinkingonthehill@gmail.com" type="text/javascript"></script>
+<input id="skip_Submit" name="skip_Submit" type="submit" value="SUBSCRIBE" />
+</td> </tr>
+</table>
+</form>
+<br>
 
         <h1>An Open Letter To Monday</h1>
         <h3>4/25/16</h3><br>
@@ -93,10 +122,9 @@ Happy Drinking! ///<br><br>
           Matt<br><br>
 
           Happy Drinking ///
-        </p>
-
-
+        </p><br>
       </article>
+
       <article class="blog1">
         <h1>My First "Blog Pop"</h1>
         <h3>4/22/16</h3><br>

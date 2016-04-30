@@ -168,6 +168,10 @@ article {
 	padding-bottom: 1em;
 }
 
+.email {
+	text-align: center;
+}
+
 /* Footer */
 .main-footer {
 	background-color: #DCDBD9;
