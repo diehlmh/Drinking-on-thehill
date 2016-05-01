@@ -170,7 +170,15 @@ article {
 
 .email {
 	text-align: center;
+	background-color: orange;
 }
+
+.email p {
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+}
+
 
 /* Footer */
 .main-footer {

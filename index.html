@@ -72,8 +72,9 @@ Happy Drinking! ///<br><br>
 
 -Matt
 </p><br>
-<p class="email">
-  Like this post? Be sure to subscribe via email to get updates on happy hour specials & new blog posts!
+<div class="email">
+  <p>
+  Like this post? Get updates on happy hour specials & new blog posts!
 </p>
 
 <form action="//submit.form" id="NewsletterSubscription100" method="post" onsubmit="return ValidateForm(this);">
@@ -84,22 +85,23 @@ if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm
 if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
 return true; }
 </script>
-<table border="0" cellpadding="5" cellspacing="0" style="width: 360px; margin: auto; text-align: left;">
+<table border="0" cellpadding="5" cellspacing="0" style="width: 20em; margin: auto; text-align: center;">
 <tr> <td>
 <label for="Name">NAME</label><br />
-<input name="Name" type="text" maxlength="60" style="width: 340px;" />
+<input name="Name" type="text" maxlength="60" style="width: 20em; height: 3em;" />
 </td> </tr>
 <tr> <td>
 <label for="FromEmailAddress">EMAIL</label><br />
-<input name="FromEmailAddress" type="text" maxlength="60" style="width: 340px;" />
+<input name="FromEmailAddress" type="text" maxlength="60" style="width: 20em; height: 3em;" />
 </td> </tr>
 <tr> <td align="center">
-<div style="float: right"><a href="https://www.100forms.com" id="lnk100" title="web forms">forms</a></div>
+  <div style="float: right"><a href="https://www.100forms.com" id="lnk100" title="web forms">forms</a></div>
 <script src="https://www.100forms.com/js/FORMKEY:8F37GA4K8CU4/SEND:drinkingonthehill@gmail.com" type="text/javascript"></script>
 <input id="skip_Submit" name="skip_Submit" type="submit" value="SUBSCRIBE" />
 </td> </tr>
 </table>
 </form>
+</div>
 <br>
 
         <h1>An Open Letter To Monday</h1>
